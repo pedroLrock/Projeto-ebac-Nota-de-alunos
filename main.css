@@ -1,0 +1,128 @@
+
+.fundo{
+    background-color: black;
+    overflow: hidden;
+}
+
+.calculadora{
+    background-color: white;
+    padding: 10px;
+    width: 600px;
+    height: 710px;
+    background-position: center;
+    margin: 0 auto;
+    display: flex;
+}
+.valor{
+    padding: 8px;
+    height: 20px;
+    width: 520px;
+    position: absolute;
+    top:100px;
+    margin-left: 20px;
+    }
+    .valor1{
+        padding: 8px;
+        height: 20px;
+        width: 520px;
+        position: absolute;
+        top:150px;
+        margin-left: 20px;
+    }
+    .valor2{
+        padding: 8px;
+        height: 20px;
+        width: 520px;
+        position: absolute;
+        top:200px;
+        margin-left: 20px;
+    }
+    .valor3{
+        padding: 8px;
+        height: 20px;
+        width: 520px;
+        position: absolute;
+        top:250px;
+        margin-left: 20px;
+    }
+    .valor4{
+        padding: 8px;
+        height: 20px;
+        width: 520px;
+        position: absolute;
+        top:300px;
+        margin-left: 20px;
+    }
+
+.titulo{
+    margin-left: 60px;
+   position: absolute;
+   padding: 10px;
+   color: rgb(7, 2, 2);
+   align-items: center;
+}
+
+.Enviar{
+    padding: 16px;
+    height: auto;
+    width: 150px;
+    position: absolute;
+    top: 370px;
+    margin-left: 20px;
+
+}
+.Enviar1{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    margin-top: 390px;
+    margin-left: 20px;
+    position: absolute;
+}
+.mensagem-sucess{
+    position: fixed;
+    width: 450px;
+    height: auto;
+    font-size:24px;
+    top: 440px;
+    margin-left:25px;
+    background-color: rgb(37, 121, 73);
+    padding: 30px;
+    color: rgb(0, 0, 0);
+    display: none;
+   
+    }
+.error-sucess{
+    position: fixed;
+    width: 450px;
+    height: auto;
+    font-size:24px;
+    top: 440px;
+    margin-left:25px;
+    padding: 30px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(114, 10, 10);
+    display: none;
+}
+.resetar{
+padding: 16px;
+height: auto;
+width: 150px;
+position: absolute;
+top: 370px;
+margin-left:400px;
+}
+
+.reset1{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    margin-top: 390px;
+    margin-left: 400px;
+    position: absolute;
+}
+
+.aviso{
+    color: red;
+    margin-top:680px;
+    display: absolute;
+    margin-left: 20px;
+}
